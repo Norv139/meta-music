@@ -1,0 +1,94 @@
+@font-face {
+    font-family: "DM Mono";
+    src: local("DMMono-Regular"),
+     url("../../fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Audiowide";
+    src: local("Audiowide"),
+     url("../../fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("../../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+
+.conteiner{
+    display: flex;
+    flex-flow: row;
+    margin: 150px auto 100px 100px;
+    color: white;
+}
+
+.conteiner__list{
+    width: 580px;
+    background: #222222;
+    display: block;
+    padding: 25px 0 30px 0;
+}
+
+.conteiner__list__paragraph{
+    color: #FFFFFF;
+    margin: 0 35px 0 30px;
+}
+.conteiner__list__paragraph__question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.conteiner__list__paragraph__question div{
+    background: #FFFFFF;
+    height: 16px;
+    width: 15px;
+}
+
+.conteiner__list__paragraph__answer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    /* or 160% */
+
+    color: #C4C4C4;
+}
+
+.conteiner__title{
+    width: 360px;
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+
+    /* identical to box height, or 120% */
+    text-transform: uppercase;
+    margin-right: 220px;
+}
+
+.conteiner__title p{
+    margin: 0 0 50px 0;
+}
+.conteiner__title span{
+    color: #A8A8A8;
+}
+.conteiner__title img{
+    width: 360px;
+    height: 360px;
+}
+

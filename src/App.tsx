@@ -1,24 +1,35 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import Header from './componets/header/header';
+import Lebel from './componets/lablel/leblel';
+import Colection from './componets/colection/colection';
+import RunningLineArtists from './componets/running_line/runningLineArtists/runningLineArtists';
+import RunningLineTeams from './componets/running_line/runningLineTeam/runningLineTeam';
+import RunningLineLogoholder from './componets/running_line/logoholder/runningLineLogoholder';
+import Artists from './componets/artists/artists';
+import Story from './componets/story/story';
+import Roadmap from './componets/roadmap/story';
+import FAQ from './componets/FAQ/faq';
+import Team from './componets/team/team';
+import Discord  from './componets/Discord/discord';
+import Footer from './componets/footer/footer';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Lebel />
+      <Colection />
+      <RunningLineArtists />
+      <Artists />
+      <Story />
+      <Roadmap />
+      <RunningLineLogoholder />
+      <FAQ/>
+      <RunningLineTeams />
+      <Team />
+      <Discord />
+      <Footer />
     </div>
   );
 }

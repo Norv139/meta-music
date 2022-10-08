@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "DM Mono";
+    src: local("DMMono-Regular"),
+     url("../../fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Audiowide";
+    src: local("Audiowide"),
+     url("../../fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("../../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    background: #42006A;
+    padding: 100px 140px;
+    min-height: 100px;
+    width: calc(100vw - 140px - 140px) ;
+
+    font-family: "DM Mono";
+}
+
+.footer__logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.footer__logo img{
+    height: 24px;
+}
+.footer__logo p{
+    margin-top: 70px;
+}
+
+
+.footer__colum{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer__nav{
+    display: flex;
+    justify-content: center;
+}
+.footer__nav *{
+    width: 36px;
+    height: 36px;
+    margin: 0 6px;
+}

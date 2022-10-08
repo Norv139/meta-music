@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "DM Mono";
+    src: local("DMMono-Regular"),
+     url("../../fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Audiowide";
+    src: local("Audiowide"),
+     url("../../fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("../../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.conteiner{
+    display: flex;
+    margin: 120px auto;
+    color: white;
+    justify-content: center;
+}
+
+.conteiner img{
+    width: 585px;
+    height: 585px;
+}
+
+.title{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+.title h1{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 61px;
+
+    /* identical to box height, or 119% */
+    text-transform: uppercase;
+    margin: 0;
+}
+.title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    max-width: 350px;
+    /* or 160% */
+
+    margin: 35px 0;
+}
+.title svg{
+    fill: #8DFD1B;
+    margin-right: 10px;
+}
+.title button{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+    background: #8DFD1B;
+}
+.title button:hover{
+    background: #76d516;
+}
+.title button:hover{
+    background: #76d516;
+}
+.title button:active{
+    color: white;
+    background: #457e0c;
+}
+.grin{
+    color: #8DFD1B;
+}
+
+

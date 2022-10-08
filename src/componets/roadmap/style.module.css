@@ -1,0 +1,240 @@
+@font-face {
+    font-family: "DMMono-Regular";
+    src: local("DMMono-Regular"),
+     url("../../fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Audiowide";
+    src: local("Audiowide"),
+     url("../../fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("../../fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.circle{
+    position: relative;
+    z-index: -2;
+}
+
+.circle__0{
+    position:absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(141, 253, 27, 0.25);
+    border-radius: 50%;
+    
+    height: 670px;
+    width: 670px;
+}
+
+.circle__1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(141, 253, 27, 0.5);
+    border-radius: 50%;
+    
+    height: 420px;
+    width: 420px;
+
+}
+
+.circle__2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(141, 253, 27, 0.5);
+    border-radius: 50%;
+    
+    height: 250px;
+    width: 250px;
+}
+
+.circle__3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(141, 253, 27, 0.5);
+    border-radius: 50%;
+    
+    height: 160px;
+    width: 160px;
+}
+
+.circle__4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgba(141, 253, 27, 0.5);
+    border-radius: 50%;
+    
+    height: 100px;
+    width: 100px;
+}
+
+.roadmap{
+
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+    
+    padding-bottom: 300px;
+}
+
+.roadmap__img img{    
+    transform: translateY(-36%);
+    width: 100%;
+    z-index: -3;
+    position: absolute;
+}
+
+.roadmap__img{
+    margin-top: 120px;
+    height: 240px;
+    overflow: hidden;
+    position: relative;
+}
+
+
+.roadmap h1{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+
+    /* identical to box height, or 120% */
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    margin-top: 120px;
+    margin-bottom: 110px;
+}
+
+.roadmap__line{
+    width: 1px;
+    height: 40px;
+    margin: 45px auto;
+    background: #8DFD1B;
+}
+
+.point{
+    margin: 0 auto;
+    width: 540px ;
+    background: #222222;
+    border: 1px solid #8DFD1B;
+}
+
+.point__title{
+    padding: 12px;
+    display: grid;
+    grid-template-columns: 45px 250px;
+    grid-column: 12px;
+    border-bottom: 1px solid #8DFD1B;
+}
+
+.point__title__number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+
+    font-family: 'DMMono-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+
+    border: 1px solid #8DFD1B;
+}
+
+.point__title__number__completed{    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45px;
+
+    font-family: 'DMMono-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 28px;
+
+    color: black;
+    background: #8DFD1B;
+
+}
+
+.point__title__main{
+    margin-left: 12px;
+}
+
+.point__title__main__phase{
+
+    font-family: 'DMMono-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 12px;
+    
+    /* identical to box height, or 150% */
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #8DFD1B;
+}
+
+.point__title__main__text{
+
+    font-family: 'DMMono-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+
+    /* identical to box height, or 173% */
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.point__main{
+    display: flex;
+    margin: 30px 12px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+
+    justify-content: space-between;
+}
+
+.point__main img{
+    width: 130px;
+    height: 130px;
+    border-radius: 8px;
+}
+
+
+.point__main__puncts{
+    margin-left: 20px;
+}
+
+.point__main__text{
+    width: 300px;
+    line-height: 26px;
+}

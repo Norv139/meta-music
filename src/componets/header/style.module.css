@@ -1,0 +1,39 @@
+@font-face {
+    font-family: "DMMono-Regular";
+    src: local("DMMono-Regular"),
+     url("../../fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+.container{
+    /* width: 100%; */
+    padding: 50px 140px 15px 140px;
+
+    display: grid;
+    
+    grid-template-columns: auto auto auto;
+
+    background-color: black;
+    color: white;
+
+    font-family: 'DMMono-Regular';
+}
+
+.box{
+    display: flex;
+}
+.box *{
+    display: flex;
+    align-items: flex-end;
+    margin: 0 20px;
+}
+
+.box__nav{
+    display: flex;
+    justify-content: center;
+}
+.box__nav *{
+    width: 36px;
+    height: 36px;
+    margin: 0 6px;
+}
