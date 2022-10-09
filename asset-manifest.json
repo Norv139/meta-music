@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/meta-music/static/css/main.dcf2a635.css",
-    "main.js": "/meta-music/static/js/main.78743bd8.js",
+    "main.js": "/meta-music/static/js/main.a5a81999.js",
     "static/media/guitarist.jpg": "/meta-music/static/media/guitarist.d262c539b9cc41e93477.jpg",
     "static/media/Inter-Regular.ttf": "/meta-music/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
     "static/media/Future.jpg": "/meta-music/static/media/Future.7faefcbd21e6abd821c1.jpg",
@@ -30,10 +30,10 @@
     "static/media/YouTube.svg": "/meta-music/static/media/YouTube.62e426500236845cbab6e077eda75ec9.svg",
     "index.html": "/meta-music/index.html",
     "main.dcf2a635.css.map": "/meta-music/static/css/main.dcf2a635.css.map",
-    "main.78743bd8.js.map": "/meta-music/static/js/main.78743bd8.js.map"
+    "main.a5a81999.js.map": "/meta-music/static/js/main.a5a81999.js.map"
   },
   "entrypoints": [
     "static/css/main.dcf2a635.css",
-    "static/js/main.78743bd8.js"
+    "static/js/main.a5a81999.js"
   ]
 }
