@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/meta-music/static/css/main.dcf2a635.css",
+    "main.js": "/meta-music/static/js/main.78743bd8.js",
+    "static/media/guitarist.jpg": "/meta-music/static/media/guitarist.d262c539b9cc41e93477.jpg",
+    "static/media/Inter-Regular.ttf": "/meta-music/static/media/Inter-Regular.e89cb19905e7db5591b0.ttf",
+    "static/media/Future.jpg": "/meta-music/static/media/Future.7faefcbd21e6abd821c1.jpg",
+    "static/media/big.jpg": "/meta-music/static/media/big.a4dcec19b146659d1c47.jpg",
+    "static/media/main.jpg": "/meta-music/static/media/main.f0902ee1ea205850d753.jpg",
+    "static/media/Somae Petit.png": "/meta-music/static/media/Somae Petit.7818add050e19c504460.png",
+    "static/media/Pete Bentz.png": "/meta-music/static/media/Pete Bentz.895475406869e11e49b7.png",
+    "static/media/DMMono-Regular.ttf": "/meta-music/static/media/DMMono-Regular.15edd89a6460acfb1a86.ttf",
+    "static/media/Audiowide-Regular.ttf": "/meta-music/static/media/Audiowide-Regular.2017bdb174a62d0daa3e.ttf",
+    "static/media/Daniela Youth.png": "/meta-music/static/media/Daniela Youth.35c57da20ad070a742cf.png",
+    "static/media/IMAGE-1.jpg": "/meta-music/static/media/IMAGE-1.2a3a4ed9680b33da3a01.jpg",
+    "static/media/Tonya.png": "/meta-music/static/media/Tonya.d35f341e60bb5a7acbd7.png",
+    "static/media/Ivor.png": "/meta-music/static/media/Ivor.35fe6676592904942886.png",
+    "static/media/Baky_Hike.jpg": "/meta-music/static/media/Baky_Hike.abe3334a4cb203c939cb.jpg",
+    "static/media/Vania_Do.jpg": "/meta-music/static/media/Vania_Do.c0757071793d10c4085b.jpg",
+    "static/media/Mark Popson.png": "/meta-music/static/media/Mark Popson.fab332d3ba2a2feedae3.png",
+    "static/media/Shaky_Lake.jpg": "/meta-music/static/media/Shaky_Lake.ed8b9727f9c3708856ee.jpg",
+    "static/media/IMAGE-2.jpg": "/meta-music/static/media/IMAGE-2.772b2f9ac8203e981bd0.jpg",
+    "static/media/IMAGE.jpg": "/meta-music/static/media/IMAGE.6abb8c1d537f0d40fc71.jpg",
+    "static/media/Roman Gore.png": "/meta-music/static/media/Roman Gore.b119b7d32904b9c1b2a0.png",
+    "static/media/founders.jpg": "/meta-music/static/media/founders.fdc24b5f4b53fc002993.jpg",
+    "static/media/IMAGE.svg": "/meta-music/static/media/IMAGE.023f746f85fe8a6f51db21683ef87fa5.svg",
+    "static/media/Discord.svg": "/meta-music/static/media/Discord.1d71c9daeaf0100f4e5af828d5bf31f0.svg",
+    "static/media/Telegram.svg": "/meta-music/static/media/Telegram.710ddba7e53111e584d5a5b9127d8e8f.svg",
+    "static/media/Twitter.svg": "/meta-music/static/media/Twitter.7bf79a2a2905608467ec732abca1c3bd.svg",
+    "static/media/YouTube.svg": "/meta-music/static/media/YouTube.62e426500236845cbab6e077eda75ec9.svg",
+    "index.html": "/meta-music/index.html",
+    "main.dcf2a635.css.map": "/meta-music/static/css/main.dcf2a635.css.map",
+    "main.78743bd8.js.map": "/meta-music/static/js/main.78743bd8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcf2a635.css",
+    "static/js/main.78743bd8.js"
+  ]
+}
