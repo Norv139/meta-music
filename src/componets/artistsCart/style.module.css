@@ -5,18 +5,7 @@
     font-weight: bold;
 }
 
-.artists{
-    
-}
 
-.artists__grid{
-    margin: 120px auto 120px 40px;
-    display: grid;
-    
-    grid-template-columns: 245px 245px 245px 245px;
-    column-gap: 60px;
-    row-gap: 60px;
-}
 
 .cart{
     font-family: 'DMMono-Regular';

@@ -1,0 +1,412 @@
+@font-face {
+    font-family: "Audiowide";
+    src: local("Audiowide"),
+     url("./fonts/Audiowide/Audiowide-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("./fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+/*  */
+
+@font-face {
+    font-family: "DM Mono";
+    src: local("DMMono-Regular"),
+     url("./fonts/DM_Mono/DMMono-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: local("Inter"),
+     url("./fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+    font-weight: bold;
+}
+
+/* lable */
+
+.lable{
+    /* width: 100%; */
+
+    display: grid;
+    grid-template-columns: auto auto;
+
+    padding-left: 76px;
+
+    background-color: black;
+    color: white;
+
+    
+}
+
+.lable__img{
+    width: 870px;
+    height: 653px;
+}
+
+.lable__text{
+    font-family: 'DMMono-Regular';
+    width: 340px;
+    margin-top: 130px;
+}
+
+.lable__text h1{
+    margin: 130px 0 40px 0;
+    font-family: "Audiowide";
+}
+
+.lable__btn{
+    margin-top: 100px;
+    padding: 32px 40px 11px 40px ;
+    width: 200px;
+    height: 60px;
+    border: none;
+    background: #8DFD1B;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.lable__btn:hover{
+    background: #7ce018;
+}
+
+.lable__btn:active{
+    background: #5aa211;
+    color: white;
+}
+
+/* colection */
+
+.colection{
+    display: grid;
+    grid-template-columns: auto auto;
+    background: black;
+
+    
+}
+
+.colection__example {
+    margin: 115px 0 0 40px ;
+    color: white;
+}
+
+.colection__example h1{
+    font-family: "Audiowide";
+    font-size: 36px;
+    /* width: 230px; */
+
+    margin: 0 0 0 80px;
+}
+
+.colection__example h1 ~ h1{
+    color: #A8A8A8;
+    width: 350px;
+}
+
+.colection__example img{
+    margin: 50px 0 0 0;
+    height: 360px;
+    width: 360px;
+}
+
+/* ------------ */
+
+.colection__text{
+    margin: 115px 240px 0 0 ;
+    margin-left: 150px;
+
+    color: white;
+    font-family: "Inter";
+    font-size: 15px;
+}
+
+.colection__text__btn{
+    
+    font-family: "DM Mono";
+    font-size: 16px;
+
+    padding: 13px;
+    margin-top: 20px;
+
+    color: white;
+    background: black;
+    border: 1px solid #8DFD1B;
+}
+
+.colection__text__btn:hover{
+    color: rgb(210, 210, 210);
+    border: 1px solid #7fe717;
+
+    text-decoration: underline ;
+}
+
+.colection__text__btn:active{
+    color: rgb(141, 141, 141);
+    border: 1px solid #5ba411;
+    
+}
+
+.colection__text__info{
+    font-family: 'DMMono-Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+
+}
+
+.colection__text__info p{
+    margin-left: 20px;
+    color: #8DFD1B;
+}
+
+.colection__text__info__line{
+    position: absolute;
+    height: 124px;
+    width: 2px;
+
+    background: #8DFD1B;
+}
+
+/* artists */
+
+.artists__grid{
+    margin: 120px auto 120px 40px;
+    display: grid;
+    
+    grid-template-columns: 245px 245px 245px 245px;
+    column-gap: 60px;
+    row-gap: 60px;
+}
+
+/* FAQ */
+
+
+.FAQ{
+    display: flex;
+    flex-flow: row;
+    margin: 150px auto 100px 100px;
+    color: white;
+}
+
+.FAQ__list{
+    width: 580px;
+    background: #222222;
+    display: block;
+    padding: 25px 0 30px 0;
+}
+
+.FAQ__list__paragraph{
+    color: #FFFFFF;
+    margin: 0 35px 0 30px;
+}
+.FAQ__list__paragraph__question{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+.FAQ__list__paragraph__question div{
+    background: #FFFFFF;
+    height: 16px;
+    width: 15px;
+}
+
+.FAQ__list__paragraph__answer{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    /* or 160% */
+
+    color: #C4C4C4;
+}
+
+.FAQ__title{
+    width: 360px;
+
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 45px;
+
+    /* identical to box height, or 120% */
+    text-transform: uppercase;
+    margin-right: 220px;
+}
+
+.FAQ__title p{
+    margin: 0 0 50px 0;
+}
+.FAQ__title span{
+    color: #A8A8A8;
+}
+.FAQ__title img{
+    width: 360px;
+    height: 360px;
+}
+
+/* team */
+
+.team__conteiner{
+    margin-top: 120px;
+    margin-bottom: 240px;
+    display: flex;
+}
+
+.team{
+    flex-flow: column;
+    width: 320px;
+
+    margin: 0 auto;
+}
+
+.team__img img{
+    width: 320px;
+    height: 320px;
+    background: white;
+}
+.team__name{
+    margin: 18px 0 22px;
+
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+
+    /* identical to box height, or 132% */
+    text-align: center;
+    text-transform: uppercase;
+}
+.team__job{
+    margin: 18px 0 22px;
+    font-family: 'DM Mono';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+
+    /* identical to box height, or 109% */
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    color: #8DFD1B;
+}
+.team__links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 36px;
+}
+
+.team__links a{
+    text-decoration: none;
+    margin: 0 6px;
+}
+.team__links img{
+    width: 36px;
+    height: 36px;
+}
+
+
+.team__texts{
+
+    padding: 0 40px 0 40px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+
+    /* or 160% */
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+/* discord */
+
+.discord{
+    display: flex;
+    margin: 120px auto;
+    color: white;
+    justify-content: center;
+}
+
+.discord img{
+    width: 585px;
+    height: 585px;
+}
+
+.discord__title{
+    margin-top: 120px;
+    margin-right: 100px;
+}
+
+.discord__title h1{
+    font-family: 'Audiowide';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 51px;
+    line-height: 61px;
+
+    /* identical to box height, or 119% */
+    text-transform: uppercase;
+    margin: 0;
+}
+.discord__title p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+    max-width: 350px;
+    /* or 160% */
+
+    margin: 35px 0;
+}
+.discord__title svg{
+    fill: #8DFD1B;
+    margin-right: 10px;
+}
+.discord__title button{
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    cursor: pointer;
+    background: #8DFD1B;
+}
+.discord__title button:hover{
+    background: #76d516;
+}
+.discord__title button:hover{
+    background: #76d516;
+}
+.discord__title button:active{
+    color: white;
+    background: #457e0c;
+}
+.discord__grin{
+    color: #8DFD1B;
+}
+
+
