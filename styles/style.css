@@ -1,0 +1,802 @@
+@keyframes ticker_text {
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(-150%);
+  }
+}
+@keyframes ticker_text-dubled {
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(-190%);
+  }
+}
+
+@keyframes ticker_text-team{
+  0%{
+    transform: translateX(0%);
+  }
+
+  100%{
+    transform: translateX(-455px);
+  }
+}
+
+.grean-line_title{
+  margin-top: 13px;
+  border-left: 1px solid #8DFD1B;
+  padding-left: 20px;
+  color: #8DFD1B;
+  font-family: DM Mono;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.992px; 
+}
+
+/*  */
+
+.header {
+  height: 100px;
+  padding: 48px 140px 12px 140px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: "DM Mono";
+}
+.header__logo {
+}
+.header__logo-img {
+  display: block;
+  max-width: 123px;
+  max-height: 32px;
+}
+.header__menu {
+  align-self: start;
+  margin-left: 20px;
+}
+.header__menu-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 43px;
+  padding: 7px 20px 0px 20px;
+}
+.header__menu-list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__menu-list-item a {
+  outline: none;
+  text-decoration: none;
+}
+
+.header__menu_social {
+  margin-left: auto;
+}
+
+.header__menu_social .header__menu-list {
+  gap: 12px;
+  padding: 3px 0 0 0;
+}
+
+/*  */
+
+.about_lable {
+  display: flex;
+}
+.about_lable__lebeles {
+  display: flex;
+  flex-direction: column;
+  max-width: 574px;
+  padding: 129px 0 0 78px;
+}
+.about_lable__title {
+  margin-bottom: 44px;
+  font-family: Audiowide;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60.614px; /* 118.852% */
+  text-transform: uppercase;
+}
+.about_lable__text {
+  max-width: 336px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.about_lable__btn {
+  cursor: pointer;
+  display: inline;
+  align-self: baseline;
+  box-sizing: border-box;
+  padding: 31px 52px 11px;
+  margin-top: 105px;
+  flex-shrink: 0;
+  border: 0;
+  background: #8dfd1b;
+  text-align: center;
+  font-family: "DM Mono", monospace;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+}
+/*  */
+.about_nft{
+  max-width: 1180px;
+
+  margin-top: 105px;
+  padding-left: 40px;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.about_nft__title{
+  font-family: Audiowide;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.485px; /* 119.697% */
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-left: 66px;
+}
+.about_nft__title span:nth-child(n+2){
+  color: #A8A8A8;
+  display: block;
+}
+
+.about_nft__img{
+  margin-top: 40px;
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.about_nft__column_text{
+  margin-top: 27px;
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+.about_nft__column_text p:nth-child(1){
+  max-width: calc(100% - 2px);
+}
+.about_nft__column_text p:nth-child(2){
+  font-size: 15px;
+}
+
+.about_nft__column_btn{
+  cursor: pointer;
+  margin-top: 37px;
+  background-color: inherit;
+  border: 1px solid #8DFD1B;
+  padding: 12px 35px;
+  color: #fff;
+  text-align: center;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+}
+/*  */
+.ticker{
+  min-height: 90px;
+  width: auto;
+  position: relative;
+  margin: 110px 0 110px 0;
+}
+.ticker__runner{
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  display: flex;
+  gap: 200px;
+}
+.ticker__text{
+  display: block;
+  animation: ticker_text 5s linear infinite; 
+  min-height: 90px;
+  font-family: Audiowide;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px; /* 111.392% */
+  text-transform: uppercase;
+}
+.ticker__text-team{
+  display: block;
+  animation: ticker_text-team 5s linear infinite; 
+  min-height: 90px;
+  font-family: Audiowide;
+  font-size: 79px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 88px; /* 111.392% */
+  text-transform: uppercase;
+}
+.ticker__text-dubled{
+  animation: ticker_text-dubled 5s linear infinite; 
+  /* animation: ticker_text 5s linear infinite; */
+  font-family: Audiowide;
+  font-size: 42px;
+  font-style: normal;
+  margin: 40px 100px auto 0;
+  text-transform: uppercase;
+  width: 400px;
+}
+
+.artists{
+  margin-top: 124px;
+  padding-left: 40px;
+}
+
+.artists__list{
+  display: grid;
+  grid-template-columns: repeat(4, 245px);
+  gap: 60px;
+
+  list-style: none;
+  align-items: center;
+}
+
+.artists__list li p{
+  padding: 16px 0 20px;
+  text-align: center;
+
+  text-align: center;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+/*  */
+.story{
+  margin-top: 235px;
+  margin-bottom: 30px;
+  display: grid;
+  grid-template-columns: auto;
+}
+.story__block{
+  margin-top: 61px;
+  margin-left: 40px;
+  display: flex;
+}
+.story__title{
+  margin-left: calc(30% + 7px);
+  font-family: Audiowide;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.485px; /* 119.697% */
+  text-transform: uppercase;
+}
+.story__title span:nth-child(n+2){
+  font-size: 38px;
+  color: #A8A8A8;
+}
+
+.story__column{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+.story__column_title{
+  margin-bottom: 28px;
+}
+
+.story__column_text{
+  width: calc(100% - 20px);
+  display: flex;
+  gap: 18px;
+  flex-direction: column;
+  align-items: start;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;
+}
+
+.story__display{
+  display: flex;
+  max-width: 878px;
+  gap: 40px;
+  padding: 60px;
+  background: #222;
+}
+.story__display img{
+  width: 172px;
+  height: 253px;
+}
+
+.story__btn{
+  text-align: start;
+  padding: 25px 0 31px 28px ;
+  cursor: pointer;
+  min-width: 282px;
+  min-height: 72px;
+  border: 0;
+  background: inherit;
+  color: #fff;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+.story__btn:hover{
+  text-decoration: 1px underline;
+}
+.story__btn-active{
+  background: #222;
+  color: #8DFD1B;
+}
+/*  */
+.roadmap{
+  margin-top: 137px;
+}
+.roadmap__banner{
+  position: relative;
+  height: 240px;
+
+  /* background: url(../images/guitarist.jpg), lightgray 50% / cover no-repeat; */
+  background-image: url(../images/guitarist.jpg);
+  background-size:cover;
+  background-position: center;
+}
+.roadmap__title{
+  margin-top: 120px;
+  text-align: center;
+  font-family: Audiowide;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.485px; /* 119.697% */
+  text-transform: uppercase;}
+
+.roadmap__map{
+  margin-top: 103px;
+  padding-bottom: 180px;
+  display: grid;
+  gap: 140px;
+}
+
+.card{
+  position: relative;
+  background: #222;
+  border: 1px #8DFD1B solid;
+  max-width: 540px;
+  margin: 0 auto;
+  list-style: none;
+}
+.card::after{
+  content: "";
+  display: block;
+  width: 1px;
+  height: 40px;
+  background: #8DFD1B;
+  left: 50%;
+  
+  position: absolute;
+  margin-top: 53px;
+}
+
+.card-and{
+  position: relative;
+  min-width: 539px;
+  background: #222;
+  border: 1px #8DFD1B solid;
+  max-width: 540px;
+  margin: 0 auto;
+  list-style: none;
+}
+
+
+.card__title{
+  border-bottom: 1px #8DFD1B solid;
+  padding: 12px;
+  display: flex;
+}
+
+.card__title__number{
+  padding: 7px;
+  min-width: 45px;
+  min-height: 45px;
+  box-sizing: border-box;
+  border: 1px solid #8DFD1B;
+  color: #8DFD1B;
+  font-family: DM Mono;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28.432px;
+  vertical-align: middle;
+  text-align: center;
+}
+.card__title__number-active{
+  background: #8DFD1B;
+  color: #fff;
+}
+
+.card__title__text{
+  margin-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.card__title-status{
+  display: block;
+  color: #8DFD1B;
+  font-family: DM Mono;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 150% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.card__title-text{
+  display: block;
+  color: #FFF;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.726px; /* 173.29% */
+  text-transform: uppercase;
+}
+
+.card__info{
+  padding: 30px 12px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.card__info__list{
+  margin-left: 20px;
+  list-style: none;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.card__info__text{
+  margin-top: 15px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 232.727% */
+}
+.card__info__text a{
+  text-decoration: none;
+  cursor: pointer;
+  color: #8DFD1B;
+  font-family: DM Mono;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px;  
+}
+
+.card__info__img{
+  justify-self: end;
+  max-width: 129px;
+  max-height: 129px;
+  border-radius: 8px;
+}
+.circles{
+  position:relative
+}
+.circles::after{
+  z-index: -1;
+  bottom: -232px;
+  right: -232px;
+  content: "";
+  position: absolute;
+  width: 670.902px;
+  height: 670.902px;
+  background-image: url(../images/circles/IMAGE.png);
+}
+
+.circles-midle::after{
+  left: 293px;
+  top: -296px;
+}
+
+.circles-bottom::after{
+  top: -80px;
+  right: 294px;
+}
+/*  */
+.faq{
+  position: relative;
+  margin-top: 130px;
+}
+.faq .ticker{
+ margin: 0;
+}
+.faq__container{
+  margin-top: 150px;
+  margin-left: 100px;
+  max-width: 1160px;
+  display: flex;
+  justify-content: space-between;
+}
+.faq__title{
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 45.485px; /* 119.697% */
+  text-transform: uppercase;
+}
+.faq__title span{
+  display: block;
+}
+.faq__title span:nth-child(even){
+  color: #A8A8A8;
+}
+.faq__img{
+  margin-top: 50px;
+  max-width: 360px;
+  max-height: 360px;
+}
+
+.faq__list{
+  padding: 24px 30px;
+  list-style: none;
+  min-width: 580px;
+  background: #222;
+  display: flex;
+  flex-direction: column;
+  gap: 26.6px;
+}
+.faq__card{
+  
+}
+.faq__card-title{
+  display: flex;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.faq__card-title::after{
+  content: "";
+  width: 16px;
+  height: 18px;
+  background: #FFF;
+}
+.faq__card-text{
+  max-width: 514px;
+  margin-top: 26px;
+  color: #C4C4C4;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px
+}
+
+.team{}
+.ticker-team{
+  margin-top: 100px;
+}
+.team__list{
+  margin-top: 125px;
+  margin-left: 139px;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(3, 320px);
+  gap: 100px;
+}
+
+.team__card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+.team__card-img{
+  max-width: 320px;
+  max-height: 320px;
+}
+.team__card-name{
+  margin-top: 22px;
+  color: #FFF;
+  text-align: center;
+  font-family: DM Mono;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27.726px; /* 132.03% */
+  text-transform: uppercase;
+}
+.team__card-job{
+  margin-top: 18px;
+  color: #8DFD1B;
+  text-align: center;
+  font-family: DM Mono;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 109.091% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.team__card-links{
+  margin-top: 22px;
+}
+.team__card-links a img{
+  max-width: 36px;
+  max-height: 36px;
+}
+.team__card-text{
+  margin-top: 15px;
+  max-width: 238px;
+  color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px;
+}
+
+.discord{
+  margin-top: 253px;
+  display: flex;
+  gap: 231px;
+}
+.discord img{
+  max-width: 584px;
+  max-height: 584px;
+}
+.discord__container{
+  margin-top: 147px;
+  margin-left: 136px;
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+}
+.discord__title{
+  max-width: 290px;
+  color: #FFF;
+  font-family: Audiowide;
+  font-size: 51px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 60.614px; /* 118.852% */
+  text-transform: uppercase;
+}
+.discord__title span:nth-child(n+2){
+  color: #8DFD1B;
+}
+.discord__text{
+  max-width: 350px;
+  color: #FFF;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25.6px; /* 160% */
+}
+.discord__btn{
+  width: max-content;
+  cursor: pointer;
+  border: none;
+  padding: 12px 32px;
+  display: flex;
+  gap: 9px;
+  align-items: center;
+  color: #000;
+  text-align: center;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px; /* 100% */
+  text-transform: capitalize;
+  background: #8DFD1B;
+}
+.discord__btn::before{
+  display: block;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-image: url('../images/discordIcon.svg');
+  background-repeat: no-repeat;
+  margin-right: 3px;
+}
+.discord__btn:hover{
+  text-decoration: underline;
+}
+
+
+footer{
+  margin-top: 117px;
+  padding: 101px 140px;
+  background: #42006A;
+  white-space: nowrap;
+  display: flex;
+  
+}
+.footer__title{
+  margin-right: 69px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #FFF;
+  font-family: DM Mono;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20.48px;
+}
+.footer__container{
+  color: #FFF;
+  font-family: DM Mono;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.2px; 
+
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-template-rows: repeat(3, auto);
+  grid-auto-flow: column dense;
+
+  row-gap: 29px;
+  column-gap: 103px;
+}
+
+.footer__container p{
+  font-size: 13px;
+  line-height: 15.36px;
+}
+.footer__menu-list{
+  margin-left: 5px;
+  display: flex;
+  gap: 12px;
+  align-items: baseline;
+  list-style: none;
+}
+
+.footer__menu-list-item a img{
+  width: 36px;
+  height: 36px;
+}

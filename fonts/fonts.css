@@ -1,0 +1,39 @@
+/* @font-face {
+  font-family: Audiowide;
+  src:
+    url(./Audiowide/Audiowide-Regular.ttf);
+  font-weight: normal;
+  font-display: swap;
+} */
+
+/* @font-face {
+  font-family: 'DM Mono', monospace;
+  src:
+    url(./DM_Mono/DMMono-Italic.ttf),
+    url(./DM_Mono/DMMono-Light.ttf) format('ttf'),
+    url(./DM_Mono/DMMono-LightItalic.ttf) format('ttf'),
+    url(./DM_Mono/DMMono-Medium.ttf) format('ttf'),
+    url(./DM_Mono/DMMono-MediumItalic.ttf) format('ttf'),
+    url(./DM_Mono/DMMono-Regular.ttf) format('ttf'),
+    ;
+  font-weight: normal;
+  font-display: swap;
+} */
+
+@font-face {
+  font-family: Inter;
+  src:
+    url(./Inter/Inter-VariableFont_slnt\,wght.ttf),
+    url(./Inter/static/Inter-Black.ttf) format('ttf'),  
+    url(./Inter/static/Inter-Bold.ttf) format('ttf'),  
+    url(./Inter/static/Inter-ExtraBold.ttf) format('ttf'),  
+    url(./Inter/static/Inter-ExtraLight.ttf) format('ttf'),  
+    url(./Inter/static/Inter-Light.ttf) format('ttf'),  
+    url(./Inter/static/Inter-Medium.ttf) format('ttf'),  
+    url(./Inter/static/Inter-Regular.ttf) format('ttf'),  
+    url(./Inter/static/Inter-SemiBold.ttf) format('ttf'),  
+    url(./Inter/static/Inter-Thin.ttf) format('ttf'),  
+    ;
+  font-weight: normal;
+  font-display: swap;
+}
